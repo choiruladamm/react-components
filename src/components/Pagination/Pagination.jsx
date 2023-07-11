@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Pagination.css";
 import axios from "axios";
-// import { GoKebabVertical } from "react-icons/go";
+import { BsPencilSquare } from "react-icons/bs";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 //Logic Part
@@ -66,7 +66,7 @@ const Pagination = () => {
                 <button className="contactCTA">Contact</button>
               </td>
               <td className="userAction">
-                
+                <BsPencilSquare />
               </td>
             </tr>
           );
