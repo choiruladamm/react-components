@@ -1,9 +1,12 @@
+/* eslint-disable no-unused-vars */
+
+import InfiniteScrolling from "./components/InfiniteScrolling/InfiniteScrolling"
 import Pagination from "./components/Pagination/Pagination"
 
 const App = () => {
   return (
-    <div className="m-10 font-[Inter]">
-      <Pagination />
+    <div className="font-[Inter]">
+      <InfiniteScrolling />
     </div>
   )
 }
